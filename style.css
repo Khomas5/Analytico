@@ -31,7 +31,7 @@ body {
   background: none;
   outline: none;
   transition: 0.2s ease-in-out;
-  cursor: pointer !important;
+  /* cursor: pointer; */
 }
 
 .secondary-text{
@@ -712,11 +712,13 @@ table tr {
 }
 
 .chart-table {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 3.2rem;
-  width: 100%;
-  max-width: 94.4rem;
+  /* width: 100%; */
+  /* max-width: 94.4rem; */
 }
 
 /*..............................................card-transactions...................................................*/
@@ -739,7 +741,8 @@ table tr {
 
 .debit-card-img {
   position: absolute;
-  top: -12rem;
+  top: -16rem;
+  width: 100%;
 }
 
 .add-card-btn {
@@ -842,10 +845,10 @@ table tr {
 
 /*  */
 
-.my-chart {
+#my-chart {
   display: block;
   box-sizing: border-box;
-  height: 472px;
+ 
   width: 100% !important;
 }
 
@@ -874,3 +877,4 @@ table tr {
 table tr{
   width: 100% !important;
 } */
+

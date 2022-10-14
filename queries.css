@@ -1,5 +1,4 @@
 
-
    @media (max-width: 1500px){
     .main-section{
         grid-template-columns: auto 1fr;
@@ -13,6 +12,7 @@
         display: grid !important;
         grid-template-columns: 1fr 1fr;
       }  
+  /* 
 
       .debit-card-img{
         width: 50%;
@@ -23,7 +23,7 @@
     width: 90%;
 
    }
-   .card-transactions {
+ .card-transactions {
 
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -33,7 +33,17 @@
     grid-template-columns: auto auto ;
     align-items: flex-end;
     width: 100%;
-    }
+    } */
+table{
+  /* width: 100%; */
+  overflow: scroll;
+}
+    table td {
+      padding: 2rem;
+      width: 100% !important;
+      /* border-top: 1px solid rgba(107, 129, 140, 0.1); */
+      /* width: 100%; */
+  }
 }
 
 
@@ -222,3 +232,5 @@ width: 100%;
     } */
 
   }
+
+
