@@ -243,11 +243,11 @@ window.addEventListener('afterprint', () => {
 
 
 
-$(document).ready(function () {
-  $("#color_mode").on("change", function () {
-    colorModePreview(this);
-  });
-});
+// $(document).ready(function () {
+//   $("#color_mode").on("change", function () {
+//     colorModePreview(this);
+//   });
+// });
 
 
 

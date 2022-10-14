@@ -347,7 +347,7 @@ canvas {
 .transaction-section {
   grid-column: 1 / span 2;
   grid-row: 3;
-  max-width: 94.4rem;
+  /* max-width: 94.4rem; */
 }
 
 .transaction-bottom {
@@ -458,10 +458,10 @@ canvas {
   gap: 2.4rem;
 }
 
-.transaction-section table {
+/* .transaction-section table {
   overflow-x: scroll;
   overflow: auto;
-}
+} */
 
 /*,......................................................switch-btn.............................................*/
 /* label {
@@ -590,7 +590,7 @@ canvas {
 
 .transaction-section {
   background-color: #ffffff;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .transaction-top {
@@ -629,6 +629,7 @@ canvas {
 table {
   border-collapse: collapse;
   width: 100%;
+
 }
 table th {
   background-color: rgba(107, 129, 140, 0.05);
@@ -864,3 +865,12 @@ table tr {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+/* table{
+  table-layout: fixed;
+  width: 100% !important;
+
+}
+table tr{
+  width: 100% !important;
+} */
